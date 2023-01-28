@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/gym-app/static/css/main.01364b23.css",
+    "main.js": "/gym-app/static/js/main.babaabe3.js",
+    "static/media/animation.gif": "/gym-app/static/media/animation.9e24b8948bcb50afe6bb.gif",
+    "static/media/loading_v_2.gif": "/gym-app/static/media/loading_v_2.f4cf8e898e386db1a570.gif",
+    "static/media/banner.png": "/gym-app/static/media/banner.aa37c8fb06fe39096a7f.png",
+    "static/media/lazy-icon.png": "/gym-app/static/media/lazy-icon.3d426de177bbf030515c.png",
+    "static/media/logo1.png": "/gym-app/static/media/logo1.352f0361961999eb05d8.png",
+    "static/media/atom.png": "/gym-app/static/media/atom.ebb56ca47955bdc9fa25.png",
+    "static/media/dumbbell.png": "/gym-app/static/media/dumbbell.e12ca831d0c0cc9d9f95.png",
+    "static/media/lifting-active.png": "/gym-app/static/media/lifting-active.bf567edaa0848080c61f.png",
+    "static/media/gym.png": "/gym-app/static/media/gym.fc8b63f1c1641d119ddc.png",
+    "static/media/gym-gold.png": "/gym-app/static/media/gym-gold.d2f91552bd4337a92955.png",
+    "static/media/lifting.png": "/gym-app/static/media/lifting.da007bfcbd0f94fb289e.png",
+    "static/media/trophy.png": "/gym-app/static/media/trophy.23b9728e2815c2f3e070.png",
+    "static/media/dumbbell-pink.png": "/gym-app/static/media/dumbbell-pink.7326aecefdc652b58537.png",
+    "static/media/figma.png": "/gym-app/static/media/figma.72fbc535ebe253a5dbc4.png",
+    "static/media/reactRouter.svg": "/gym-app/static/media/reactRouter.ae395b4904731fbd027bcb0213833aac.svg",
+    "index.html": "/gym-app/index.html",
+    "main.01364b23.css.map": "/gym-app/static/css/main.01364b23.css.map",
+    "main.babaabe3.js.map": "/gym-app/static/js/main.babaabe3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.01364b23.css",
+    "static/js/main.babaabe3.js"
+  ]
+}

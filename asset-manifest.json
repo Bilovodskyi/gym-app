@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/gym-app/static/css/main.01364b23.css",
-    "main.js": "/gym-app/static/js/main.babaabe3.js",
+    "main.css": "/gym-app/static/css/main.92b0b25b.css",
+    "main.js": "/gym-app/static/js/main.c8145189.js",
     "static/media/animation.gif": "/gym-app/static/media/animation.9e24b8948bcb50afe6bb.gif",
     "static/media/loading_v_2.gif": "/gym-app/static/media/loading_v_2.f4cf8e898e386db1a570.gif",
     "static/media/banner.png": "/gym-app/static/media/banner.aa37c8fb06fe39096a7f.png",
@@ -18,11 +18,11 @@
     "static/media/figma.png": "/gym-app/static/media/figma.72fbc535ebe253a5dbc4.png",
     "static/media/reactRouter.svg": "/gym-app/static/media/reactRouter.ae395b4904731fbd027bcb0213833aac.svg",
     "index.html": "/gym-app/index.html",
-    "main.01364b23.css.map": "/gym-app/static/css/main.01364b23.css.map",
-    "main.babaabe3.js.map": "/gym-app/static/js/main.babaabe3.js.map"
+    "main.92b0b25b.css.map": "/gym-app/static/css/main.92b0b25b.css.map",
+    "main.c8145189.js.map": "/gym-app/static/js/main.c8145189.js.map"
   },
   "entrypoints": [
-    "static/css/main.01364b23.css",
-    "static/js/main.babaabe3.js"
+    "static/css/main.92b0b25b.css",
+    "static/js/main.c8145189.js"
   ]
 }

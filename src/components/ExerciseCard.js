@@ -34,7 +34,7 @@ const ExerciseCard = ({ exercise, typeAdd }) => {
         <>
             <Stack className="exercise-card">
                 <Typography
-                    mt="20px"
+                    sx={{ mt: { xs: "15px", sm: "20px" } }}
                     pb="10px"
                     fontSize="18px"
                     textAlign="center"

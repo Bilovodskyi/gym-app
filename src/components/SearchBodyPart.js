@@ -17,10 +17,11 @@ const SearchBodyPart = ({ item }) => {
             sx={{
                 backgroundColor:
                     bodyPart === item ? "var(--opacity-purple)" : "#fff",
-                width: "270px",
-                height: "280px",
+
+                width: { xs: "150px", sm: "270px" },
+                height: { xs: "155px", sm: "280px" },
+                gap: { xs: "15px", sm: "47px" },
                 cursor: "pointer",
-                gap: "47px",
             }}
             onClick={() => {
                 setBodyPart(item);
@@ -33,7 +34,8 @@ const SearchBodyPart = ({ item }) => {
                 style={{ width: "60px", height: "60px" }}
             />
             <Typography
-                fontSize="24px"
+                // fontSize="24px"
+                sx={{ fontSize: { xs: "18px", sm: "24px" } }}
                 color="#3a1212"
                 textTransform="capitalize">
                 {item}

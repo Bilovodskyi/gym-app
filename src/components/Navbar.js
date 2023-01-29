@@ -20,18 +20,20 @@ const Navbar = () => {
                     src={Logo}
                     alt="logo"
                     style={{
-                        width: "100px",
-                        height: "100px",
+                        width: "90px",
+                        height: "90px",
                     }}
                 />
             </Link>
             <Stack
                 direction="row"
-                sx={{ gap: { lg: "40px", md: "30px", xs: "20px" } }}
-                fontSize="24px"
+                sx={{
+                    gap: { lg: "40px", md: "30px", xs: "20px" },
+                    fontSize: { xs: "18px", sm: "24px" },
+                }}
                 alignItems="center">
                 <Link
-                    to="/"
+                    to="/gym-app/"
                     style={{
                         textDecoration: "none",
                         color: "#3A1212",
@@ -43,11 +45,11 @@ const Navbar = () => {
                     className="explore-btn"
                     variant="contained"
                     sx={{
-                        fontSize: "16px",
+                        fontSize: { xs: "14px", sm: "16px" },
                         backgroundColor: "var(--dark-purple)",
                     }}>
                     <Link
-                        to="/my-exercises"
+                        to="/gym-app/my-exercises"
                         style={{
                             textDecoration: "none",
                             color: "#fff",

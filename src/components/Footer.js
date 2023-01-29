@@ -8,7 +8,10 @@ import ReactIcon from "../assets/atom.png";
 
 const Footer = () => {
     return (
-        <Stack padding="50px" alignItems="center" justifyContent="center">
+        <Stack
+            sx={{ p: { xs: "20px", sm: "50px" } }}
+            alignItems="center"
+            justifyContent="center">
             <Stack
                 width="100%"
                 sx={{ height: { xs: "350px", sm: "250px" } }}
@@ -29,10 +32,11 @@ const Footer = () => {
                     alignItems="center"
                     justifyContent="space-around"
                     mt="50px"
+                    p="15px"
                     // gap="25px"
                     sx={{
                         flexWrap: { xs: "wrap", sm: "none" },
-                        // gap: { xs: "25px", sm: "0" },
+                        gap: { xs: "35px", sm: "0" },
                     }}>
                     <Box textAlign="center">
                         <img

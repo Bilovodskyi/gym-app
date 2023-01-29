@@ -13,9 +13,8 @@ const WelcomeToMyExercises = () => {
         <Box
             sx={{
                 mt: { lg: "130px", xs: "70px" },
-                marginX: { xs: "20px", sm: "0" },
+                p: { xs: "20px", sm: "30px" },
             }}
-            p="20px"
             position="relative">
             <Typography
                 fontWeight="700"

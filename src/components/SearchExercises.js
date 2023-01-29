@@ -34,7 +34,11 @@ const SearchExercises = () => {
     };
 
     return (
-        <Stack alignItems="center" mt="37px" justifyContent="center" p="20px">
+        <Stack
+            alignItems="center"
+            mt="37px"
+            justifyContent="center"
+            sx={{ p: { xs: "10px", sm: "20px" } }}>
             <Typography
                 sx={{ fontSize: { lg: "44px", xs: "30px" } }}
                 mb="50px"
@@ -51,7 +55,7 @@ const SearchExercises = () => {
                             border: "none",
                         },
                         width: {
-                            xs: "250px",
+                            xs: "220px",
                             sm: "450px",
                             md: "600px",
                             lg: "800px",
@@ -90,7 +94,12 @@ const SearchExercises = () => {
                 <br />
                 the Part of the Body you want to train:
             </Typography>
-            <Box sx={{ position: "relative", width: "100%", p: "20px" }}>
+            <Box
+                sx={{
+                    position: "relative",
+                    width: "100%",
+                    p: { xs: "0px", sm: "20px" },
+                }}>
                 <HorizontalScrollbar data={allBodyParts} />
             </Box>
         </Stack>

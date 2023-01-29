@@ -60,7 +60,7 @@ const AddToMyExercisesModal = ({ open, exercise, handleClose }) => {
                     <Typography
                         sx={{
                             fontSize: { md: "35px", xs: "20px" },
-                            ml: { md: "30px", xs: "10px" },
+                            ml: { md: "30px", xs: "15px" },
                         }}>
                         Add To My Exercises
                     </Typography>
@@ -80,15 +80,16 @@ const AddToMyExercisesModal = ({ open, exercise, handleClose }) => {
                 </Stack>
                 <Stack
                     sx={{
-                        paddingX: { md: "30px", xs: "10px" },
-                        mb: { md: "30px", xs: "10px" },
+                        p: { md: "30px", xs: "15px" },
+                        mb: { md: "0px", xs: "10px" },
                     }}>
                     <Typography marginY="15px" fontSize="17px">
                         Pick category:
                     </Typography>
                     <FormControl
                         sx={{
-                            width: { md: "400px", xs: "300px" },
+                            width: { md: "400px", xs: "280px" },
+
                             mb: "10px",
                         }}>
                         <InputLabel id="select">Category</InputLabel>
@@ -120,15 +121,15 @@ const AddToMyExercisesModal = ({ open, exercise, handleClose }) => {
                         }}
                         label="Create new category"
                         variant="outlined"
-                        sx={{ width: { md: "400px", xs: "300px" } }}
+                        sx={{ width: { md: "400px", xs: "280px" } }}
                     />
                 </Stack>
                 <Stack
                     direction="row"
                     justifyContent="flex-end"
                     sx={{
-                        paddingX: { md: "30px", xs: "10px" },
-                        mb: { md: "20px", xs: "10px" },
+                        paddingX: { md: "30px", xs: "15px" },
+                        mb: { md: "20px", xs: "15px" },
                     }}>
                     <Button
                         type="submit"

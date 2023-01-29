@@ -8,10 +8,9 @@ const MainPage = () => {
         <Box
             sx={{
                 mt: { lg: "170px", xs: "70px" },
-                // ml: { xs: "20px" },
+                p: { xs: "20px", sm: "30px" },
             }}
-            position="relative"
-            p="20px">
+            position="relative">
             <Typography
                 color="var(--light-purple)"
                 fontWeight="600"
@@ -30,6 +29,7 @@ const MainPage = () => {
                 sx={{
                     backgroundColor: "var(--dark-purple)",
                     mt: "20px",
+                    mb: { xs: "30px", sm: "0px" },
                 }}>
                 Explore Exercises
             </Button>

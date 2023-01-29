@@ -33,7 +33,8 @@ const HorizontalScrollbar = ({ data }) => {
                     key={item.id || item}
                     itemID={item.id || item}
                     title={item.id || item}
-                    m="0 40px">
+                    // m="0 40px"
+                    sx={{ marginX: { xs: "10px", sm: "40px" } }}>
                     <SearchBodyPart item={item} />
                 </Box>
             ))}

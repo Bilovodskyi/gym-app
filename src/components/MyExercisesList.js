@@ -27,7 +27,7 @@ const MyExercisesList = () => {
     }, [clickedCategory, myExercises]);
 
     return (
-        <Box p="40px">
+        <Box sx={{ p: { xs: "20px", sm: "40px" } }}>
             <Typography
                 sx={{ fontSize: { lg: "44px", xs: "30px" } }}
                 mb="20px"
@@ -36,7 +36,7 @@ const MyExercisesList = () => {
             </Typography>
             {getCategory().length === 0 ? (
                 <Stack
-                    direction="row"
+                    sx={{ flexDirection: { xs: "column", md: "row" } }}
                     justifyContent="center"
                     alignItems="center"
                     mt="50px">
@@ -60,7 +60,7 @@ const MyExercisesList = () => {
                             "&:hover": {
                                 backgroundColor: "var(--light-purple)",
                             },
-                            mr: "20px",
+                            mr: { xs: "10px", sm: "20px" },
                             color: "#fff",
                             background: "var(--dark-purple)",
                             fontSize: "16px",

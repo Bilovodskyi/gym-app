@@ -77,7 +77,6 @@ body {
     width: 350px;
     height: 500px;
     background: #fff;
-    /* border: 3px solid var(--dark-purple); */
     text-decoration: none;
     display: flex;
     justify-content: space-between;
@@ -166,8 +165,8 @@ iframe {
 
 @media screen and (max-width: 450px) {
     .exercise-card {
-        width: 280px;
-        height: 450px;
+        width: 320px;
+        height: 490px;
     }
 
     iframe {

@@ -12,8 +12,11 @@ const App = () => {
         <Box width="400px" sx={{ width: { xl: "1488px" } }} m="auto">
             <Navbar />
             <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/my-exercises" element={<MyExercisesPage />} />
+                <Route path="/gym-app/" element={<Home />} />
+                <Route
+                    path="/gym-app/my-exercises"
+                    element={<MyExercisesPage />}
+                />
             </Routes>
             <Footer />
         </Box>
